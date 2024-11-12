@@ -61,3 +61,33 @@ body {
     rgb(255, 255, 255) 100%
   );
 }
+
+.third-body-gradient {
+  background-image: radial-gradient(
+    89% 56% at 50% 0%,
+    rgba(192, 228, 233, 0.65) 0%,
+    rgb(255, 255, 255) 100%
+  );
+}
+
+.marquee-container {
+  display: flex;
+  justify-content: flex-start;
+  overflow: hidden;
+}
+
+.marquee-text {
+  white-space: nowrap;
+  padding: 0 6rem;
+  letter-spacing: 1px;
+  animation: scroll 20000ms linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

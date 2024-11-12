@@ -1,6 +1,9 @@
+import FifthBody from "./components/FifthBody"
 import FirstBody from "./components/FirstBody"
+import FourthBody from "./components/FourthBody"
 import Navbar from "./components/Navbar"
 import SecondBody from "./components/SecondBody"
+import ThirdBody from "./components/ThirdBody"
 
 function App() {
   return (
@@ -8,7 +11,9 @@ function App() {
       <Navbar />
       <FirstBody />
       <SecondBody />
-     <h1 className="text-red-600">Hello world</h1>
+      <ThirdBody />
+      <FourthBody />
+      <FifthBody />
     </>
   )
 }
