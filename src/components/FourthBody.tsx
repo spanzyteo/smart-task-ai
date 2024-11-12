@@ -12,36 +12,36 @@ const FourthBody = () => {
         <h1 className="lg:font-semibold font-bold lg:text-4xl text-2xl text-center">
           Key Features
         </h1>
-        <div className="flex flex-col mt-8 gap-4">
+        <div className="flex flex-col mt-8 ml-4 lg:ml-0 gap-4">
           <div className="flex items-center gap-6">
             <FaCalendarAlt className="h-[40px] w-[40px]" />
-            <h1 className="lg:text-3xl text-2xl font-mono">Calender</h1>
+            <h1 className="lg:text-3xl text-xl font-mono">Calender</h1>
           </div>
           <div className="flex items-center gap-6">
             <GiArtificialIntelligence className="h-[40px] w-[40px]" />
-            <h1 className="lg:text-3xl text-2xl font-mono">AI Automation</h1>
+            <h1 className="lg:text-3xl text-xl font-mono">AI Automation</h1>
           </div>
           <div className="flex items-center gap-6">
             <MdNotificationsActive className="h-[40px] w-[40px] " />
-            <h1 className="lg:text-3xl text-2xl font-mono">
+            <h1 className="lg:text-3xl text-xl font-mono">
               Intelligent Notification
             </h1>
           </div>
           <div className="flex items-center gap-6">
             <GoWorkflow className="h-[40px] w-[40px] " />
-            <h1 className="lg:text-3xl text-2xl font-mono">
+            <h1 className="lg:text-3xl text-xl font-mono">
               Adaptive Workflow
             </h1>
           </div>
           <div className="flex items-center gap-6">
             <MdOutlineSecurity className="h-[40px] w-[40px]" />
-            <h1 className="lg:text-3xl text-2xl font-mono">
+            <h1 className="lg:text-3xl text-xl font-mono">
               Security & Privacy
             </h1>
           </div>
           <div className="flex items-center gap-6">
             <SiBlockchaindotcom className="h-[40px] w-[40px]" />
-            <h1 className="lg:text-3xl text-2xl font-mono">
+            <h1 className="lg:text-3xl text-xl font-mono">
               Blockchain Verification
             </h1>
           </div>
