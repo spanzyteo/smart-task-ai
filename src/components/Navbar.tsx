@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import logo from '../assets/logo SMART TASK AI.png'
+import logo from '../assets/SMART TASK AI.png'
 import { IoMenuSharp } from 'react-icons/io5'
 import { MdOutlineCancel } from 'react-icons/md'
 const Navbar = () => {
@@ -10,7 +10,7 @@ const Navbar = () => {
       <div className="lg:fixed top-0 left-0 right-0 flex flex-col bg-white z-50">
         <div className="h-[70px] flex items-center justify-between ">
           <div>
-            <img className="h-[50px] w-[50px] ml-4" src={logo} alt="logo" />
+            <img className="h-[60px] w-[100px] ml-4 object-cover" src={logo} alt="logo" />
           </div>
           <div className="lg:flex hidden items-center gap-8 mr-4 text-[1.1rem]">
             <h1>Features</h1>

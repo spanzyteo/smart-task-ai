@@ -8,9 +8,9 @@ const SecondBody = () => {
         <h1 className="lg:font-semibold font-bold lg:text-4xl text-2xl text-center">
           Organize your daily tasks
         </h1>
-        <h1 className="lg:text-xl text-md w-[80%] lg:w-auto text-center font-mono mt-10">
-          The calendar view gives users a broad overview of their tasks across
-          days, weeks, or months.
+        <h1 className="lg:text-xl text-md w-[80%] lg:w-auto text-center font-mono mt-10 text-gray-700">
+          Schedule deadlines, visualize your tasks in calendar view, set
+          recurring tasks and receive procrastination alerts..
         </h1>
       </div>
       <div className="hidden flex-row lg:flex gap-10 mt-16">
@@ -29,8 +29,8 @@ const SecondBody = () => {
           />
         </div>
       </div>
-      <div className='lg:hidden block mt-10 h-[515px] w-[290px]'>
-        <img src={img3} alt="img" className='rounded-xl shadow-xl' />
+      <div className="lg:hidden block mt-10 h-[515px] w-[290px]">
+        <img src={img3} alt="img" className="rounded-xl shadow-xl" />
       </div>
     </div>
   )

@@ -1,10 +1,3 @@
-import { FaCalendarAlt } from 'react-icons/fa'
-import { GiArtificialIntelligence } from 'react-icons/gi'
-import { MdNotificationsActive } from 'react-icons/md'
-import { GoWorkflow } from 'react-icons/go'
-import { MdOutlineSecurity } from 'react-icons/md'
-import { SiBlockchaindotcom } from 'react-icons/si'
-
 const FourthBody = () => {
   return (
     <div className="second-body-gradient lg:mt-[8rem] mt-[6rem] flex flex-col items-center">
@@ -12,36 +5,34 @@ const FourthBody = () => {
         <h1 className="lg:font-semibold font-bold lg:text-4xl text-2xl text-center">
           Key Features
         </h1>
-        <div className="flex flex-col mt-8 ml-4 lg:ml-0 gap-4">
-          <div className="flex items-center gap-6">
-            <FaCalendarAlt className="h-[40px] w-[40px]" />
-            <h1 className="lg:text-3xl text-xl font-mono">Calender</h1>
+        <div className="grid grid-cols-3 mt-8 gap-2 w-[95%] md:w-auto">
+          <div>
+            <h1 className="lg:text-2xl text-sm font-mono text-gray-700">
+              Calender
+            </h1>
           </div>
-          <div className="flex items-center gap-6">
-            <GiArtificialIntelligence className="h-[40px] w-[40px]" />
-            <h1 className="lg:text-3xl text-xl font-mono">AI Automation</h1>
+          <div>
+            <h1 className="lg:text-2xl text-sm font-mono text-gray-700">
+              AI Automation
+            </h1>
           </div>
-          <div className="flex items-center gap-6">
-            <MdNotificationsActive className="h-[40px] w-[40px] " />
-            <h1 className="lg:text-3xl text-xl font-mono">
+          <div>
+            <h1 className="lg:text-2xl text-sm font-mono text-gray-700">
               Intelligent Notification
             </h1>
           </div>
-          <div className="flex items-center gap-6">
-            <GoWorkflow className="h-[40px] w-[40px] " />
-            <h1 className="lg:text-3xl text-xl font-mono">
+          <div>
+            <h1 className="lg:text-2xl text-sm font-mono text-gray-700">
               Adaptive Workflow
             </h1>
           </div>
-          <div className="flex items-center gap-6">
-            <MdOutlineSecurity className="h-[40px] w-[40px]" />
-            <h1 className="lg:text-3xl text-xl font-mono">
+          <div>
+            <h1 className="lg:text-2xl text-sm font-mono text-gray-700">
               Security & Privacy
             </h1>
           </div>
-          <div className="flex items-center gap-6">
-            <SiBlockchaindotcom className="h-[40px] w-[40px]" />
-            <h1 className="lg:text-3xl text-xl font-mono">
+          <div>
+            <h1 className="lg:text-2xl text-sm font-mono text-gray-700">
               Blockchain Verification
             </h1>
           </div>

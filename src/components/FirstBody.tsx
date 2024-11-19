@@ -1,51 +1,45 @@
-import img1 from '../assets/todo-anime2.png'
-import img2 from '../assets/todo-anime6.png'
 import todo1 from '../assets/todo-image2.avif'
 import todo2 from '../assets/todo-image1.avif'
+import img from '../assets/logo SMART TASK AI.png'
 const FirstBody = () => {
   return (
     <>
       <div className="first-body-gradient flex flex-col lg:mt-[70px]">
-        <div className="flex justify-between items-center mt-10">
-          <div className="">
-            <img
-              className="h-[350px] w-[200px] lg:block hidden object-cover"
-              src={img1}
-              alt="image"
-            />
-          </div>
+        <div className="flex flex-col lg:flex-row justify-center items-center mt-10 gap-10">
           <div className="flex flex-col items-center justify-center gap-2">
-            <h1 className="lg:text-5xl text-2xl font-mono lg:font-semibold font-bold">
+            <h1 className="lg:text-6xl text-2xl font-mono lg:font-semibold font-bold">
               Organize your life
             </h1>
-            <h1 className="lg:text-5xl text-2xl font-mono lg:font-semibold font-bold">
+            <h1 className="lg:text-6xl text-2xl font-mono lg:font-semibold font-bold">
               Schedule your task
             </h1>
-            <h1 className="lg:text-5xl text-2xl font-mono lg:font-semibold font-bold">
+            <h1 className="lg:text-6xl text-2xl font-mono lg:font-semibold font-bold">
               Stop procrastinating
             </h1>
-            <h1 className="mt-4 lg:text-xl text-md text-center w-[75%] lg:w-auto font-mono">
+            <h1 className="mt-4 lg:text-xl text-md text-center w-[75%] lg:w-auto font-mono text-gray-700">
               An A.I powered task manager for you and your team.
             </h1>
-            <button className="gradient-button1 font-semibold mt-10 text-xl shadow-2xl">
-              Get started
-            </button>
           </div>
-          <div className="">
+          <div>
             <img
-              className="h-[350px] w-[200px] mr-6 lg:block hidden object-contain"
-              src={img2}
-              alt="image"
+              className="lg:h-[300px] h-[200px] lg:w-[300px] w-[200px]"
+              src={img}
+              alt="img"
             />
           </div>
+        </div>
+        <div className="mx-auto">
+          <button className="gradient-button1 font-semibold mt-10 text-xl shadow-2xl">
+            Get started
+          </button>
         </div>
         <div className="flex flex-col items-center justify-center mt-16">
           <h1 className="text-center text-2xl lg:text-4xl font-mono lg:font-semibold font-bold">
             Plan your day with AI automation
           </h1>
-          <h1 className="text-center mt-4 text-lg w-[80%] lg:w-[450px] font-mono">
-            AI automation is the central hub where users interact with their
-            tasks. Here's a breakdown of what the task view could look like:
+          <h1 className="text-center mt-4 text-lg w-[80%] lg:w-[450px] font-mono text-gray-700">
+            Chat with AI using simple texts and schedule your tasks for you and
+            your team with smart notifications
           </h1>
           <div className="relative mt-16 lg:block hidden h-[572px]">
             <img
