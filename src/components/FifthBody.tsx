@@ -6,10 +6,10 @@ const FifthBody = () => {
         <h1 className="lg:font-semibold font-bold lg:text-4xl text-2xl text-center">
           Complete your tasks
         </h1>
-        <h1 className="lg:text-xl text-md w-[80%] lg:w-auto text-center font-mono mt-10 text-gray-700">
+        <h1 className="lg:text-xl text-md w-[80%] lg:w-auto text-left font-mono mt-10 text-gray-700">
           Stay focused and get things done.
         </h1>
-        <h1 className="lg:text-xl text-md w-[80%] lg:w-auto text-center font-mono mt-3 text-gray-700">
+        <h1 className="lg:text-xl text-md w-[80%] lg:w-auto text-left font-mono mt-3 text-gray-700">
           We've got you and your team covered whether you're commuting, at the
           office, or anywhere in between.
         </h1>

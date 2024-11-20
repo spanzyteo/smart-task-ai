@@ -5,7 +5,7 @@ const FourthBody = () => {
         <h1 className="lg:font-semibold font-bold lg:text-4xl text-2xl text-center">
           Key Features
         </h1>
-        <div className="grid grid-cols-3 mt-8 gap-2 w-[95%] md:w-auto">
+        <div className="grid grid-cols-3 mt-8 gap-4 w-[95%] md:w-auto">
           <div>
             <h1 className="lg:text-2xl text-sm font-mono text-gray-700">
               Calender

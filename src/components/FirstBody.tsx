@@ -37,9 +37,12 @@ const FirstBody = () => {
           <h1 className="text-center text-2xl lg:text-4xl font-mono lg:font-semibold font-bold">
             Plan your day with AI automation
           </h1>
-          <h1 className="text-center mt-4 text-lg w-[80%] lg:w-[450px] font-mono text-gray-700">
+          <h1 className="mt-6 text-md lg:text-lg w-[85%] lg:w-[620px] font-mono text-gray-700 text-left">
             Chat with AI using simple texts and schedule your tasks for you and
-            your team with smart notifications
+            your team with smart notifications.
+          </h1>
+          <h1 className="mt-4 text-md lg:text-lg w-[85%] lg:w-[620px] font-mono text-gray-700 text-left">
+            Beat all deadlines.
           </h1>
           <div className="relative mt-16 lg:block hidden h-[572px]">
             <img

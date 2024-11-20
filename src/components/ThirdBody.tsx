@@ -4,10 +4,10 @@ const ThirdBody = () => {
   return (
     <div className="third-body-gradient lg:mt-[8rem] mt-[6rem] flex flex-col items-center">
       <div className="flex flex-col lg:mt-20 mt-10 font-mono items-center">
-        <h1 className="lg:font-semibold font-bold lg:text-4xl text-2xl text-center">
+        <h1 className="lg:font-semibold font-bold lg:text-4xl text-xl text-center whitespace-nowrap">
           Optimize your productivity
         </h1>
-        <h1 className="lg:text-xl text-md w-[80%] lg:w-auto text-center font-mono mt-10 text-gray-700">
+        <h1 className="lg:text-xl text-md w-[80%] lg:w-auto text-left font-mono mt-6 text-gray-700">
           Sort and prioritize your daily tasks using custom filters. Focus on
           what you need and get it done with focus mode.
         </h1>
