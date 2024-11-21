@@ -34,15 +34,17 @@ const FirstBody = () => {
           </button>
         </div>
         <div className="flex flex-col items-center justify-center mt-16">
-          <h1 className="text-center text-2xl lg:text-4xl font-mono lg:font-semibold font-bold">
+          <div className="w-[85%] lg:w-[620px]">
+            <h1 className="text-left text-xl lg:text-2xl font-mono lg:font-semibold font-bold text-gray-500">
+              Stay ahead always
+            </h1>
+          </div>
+          <h1 className="text-center mt-4 text-2xl lg:text-4xl font-mono lg:font-semibold font-bold">
             Plan your day with AI automation
           </h1>
           <h1 className="mt-6 text-md lg:text-lg w-[85%] lg:w-[620px] font-mono text-gray-700 text-left">
             Chat with AI using simple texts and schedule your tasks for you and
             your team with smart notifications.
-          </h1>
-          <h1 className="mt-4 text-md lg:text-lg w-[85%] lg:w-[620px] font-mono text-gray-700 text-left">
-            Beat all deadlines.
           </h1>
           <div className="relative mt-16 lg:block hidden h-[572px]">
             <img

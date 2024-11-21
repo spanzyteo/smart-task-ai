@@ -8,7 +8,7 @@ const FourthBody = () => {
         <div className="grid grid-cols-3 mt-8 gap-4 w-[95%] md:w-auto">
           <div>
             <h1 className="lg:text-2xl text-sm font-mono text-gray-700">
-              Calender
+              Calender View
             </h1>
           </div>
           <div>
