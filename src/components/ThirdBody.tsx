@@ -9,7 +9,7 @@ const ThirdBody = () => {
             Focus on priorities
           </h1>
         </div>
-        <h1 className="lg:font-semibold font-bold lg:text-4xl text-xl text-center whitespace-nowrap mt-4">
+        <h1 className="lg:font-semibold font-bold lg:text-4xl text-xl md:w-auto w-[80%] text-center whitespace-nowrap mt-4">
           Optimize your productivity
         </h1>
         <h1 className="lg:text-xl text-md w-[80%] lg:w-[620px] text-left font-mono mt-6 text-gray-700">

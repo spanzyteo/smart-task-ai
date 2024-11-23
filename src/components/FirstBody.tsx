@@ -39,7 +39,7 @@ const FirstBody = () => {
               Stay ahead always
             </h1>
           </div>
-          <h1 className="text-center mt-4 text-2xl lg:text-4xl font-mono lg:font-semibold font-bold">
+          <h1 className="text-left mt-4 text-2xl lg:text-4xl font-mono lg:font-semibold font-bold md:w-auto w-[85%]">
             Plan your day with AI automation
           </h1>
           <h1 className="mt-6 text-md lg:text-lg w-[85%] lg:w-[620px] font-mono text-gray-700 text-left">
